@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A92DC221CDD7CAE00DFC775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92DC211CDD7CAE00DFC775 /* main.m */; };
+		1A92DC251CDD7CAE00DFC775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92DC241CDD7CAE00DFC775 /* AppDelegate.m */; };
+		1A92DC2B1CDD7CAE00DFC775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A92DC291CDD7CAE00DFC775 /* Main.storyboard */; };
+		1A92DC2D1CDD7CAE00DFC775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A92DC2C1CDD7CAE00DFC775 /* Assets.xcassets */; };
+		1A92DC301CDD7CAE00DFC775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A92DC2E1CDD7CAE00DFC775 /* LaunchScreen.storyboard */; };
+		1A92DC541CDD7ECE00DFC775 /* TRMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92DC511CDD7ECE00DFC775 /* TRMusic.m */; };
+		1A92DC551CDD7ECE00DFC775 /* TRMusicGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92DC531CDD7ECE00DFC775 /* TRMusicGroup.m */; };
+		1A92DC581CDD80C200DFC775 /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92DC571CDD80C200DFC775 /* MusicCell.m */; };
+		1A92DC5B1CDD821C00DFC775 /* MusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A92DC5A1CDD821C00DFC775 /* MusicTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A92DC1D1CDD7CAE00DFC775 /* QQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A92DC211CDD7CAE00DFC775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A92DC231CDD7CAE00DFC775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A92DC241CDD7CAE00DFC775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A92DC2A1CDD7CAE00DFC775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A92DC2C1CDD7CAE00DFC775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A92DC2F1CDD7CAE00DFC775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A92DC311CDD7CAE00DFC775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A92DC501CDD7ECE00DFC775 /* TRMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMusic.h; sourceTree = "<group>"; };
+		1A92DC511CDD7ECE00DFC775 /* TRMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMusic.m; sourceTree = "<group>"; };
+		1A92DC521CDD7ECE00DFC775 /* TRMusicGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMusicGroup.h; sourceTree = "<group>"; };
+		1A92DC531CDD7ECE00DFC775 /* TRMusicGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMusicGroup.m; sourceTree = "<group>"; };
+		1A92DC561CDD80C200DFC775 /* MusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCell.h; sourceTree = "<group>"; };
+		1A92DC571CDD80C200DFC775 /* MusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCell.m; sourceTree = "<group>"; };
+		1A92DC591CDD821C00DFC775 /* MusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewController.h; sourceTree = "<group>"; };
+		1A92DC5A1CDD821C00DFC775 /* MusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A92DC1A1CDD7CAE00DFC775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A92DC141CDD7CAE00DFC775 = {
+			isa = PBXGroup;
+			children = (
+				1A92DC1F1CDD7CAE00DFC775 /* QQMusic */,
+				1A92DC1E1CDD7CAE00DFC775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A92DC1E1CDD7CAE00DFC775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A92DC1D1CDD7CAE00DFC775 /* QQMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A92DC1F1CDD7CAE00DFC775 /* QQMusic */ = {
+			isa = PBXGroup;
+			children = (
+				1A92DC491CDD7E8100DFC775 /* Model */,
+				1A92DC481CDD7E7400DFC775 /* Controller */,
+				1A92DC461CDD7E5F00DFC775 /* View */,
+				1A92DC291CDD7CAE00DFC775 /* Main.storyboard */,
+				1A92DC2C1CDD7CAE00DFC775 /* Assets.xcassets */,
+				1A92DC201CDD7CAE00DFC775 /* Supporting Files */,
+			);
+			path = QQMusic;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		1A92DC201CDD7CAE00DFC775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A92DC311CDD7CAE00DFC775 /* Info.plist */,
+				1A92DC2E1CDD7CAE00DFC775 /* LaunchScreen.storyboard */,
+				1A92DC231CDD7CAE00DFC775 /* AppDelegate.h */,
+				1A92DC241CDD7CAE00DFC775 /* AppDelegate.m */,
+				1A92DC211CDD7CAE00DFC775 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A92DC461CDD7E5F00DFC775 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A92DC561CDD80C200DFC775 /* MusicCell.h */,
+				1A92DC571CDD80C200DFC775 /* MusicCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A92DC481CDD7E7400DFC775 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A92DC591CDD821C00DFC775 /* MusicTableViewController.h */,
+				1A92DC5A1CDD821C00DFC775 /* MusicTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A92DC491CDD7E8100DFC775 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A92DC501CDD7ECE00DFC775 /* TRMusic.h */,
+				1A92DC511CDD7ECE00DFC775 /* TRMusic.m */,
+				1A92DC521CDD7ECE00DFC775 /* TRMusicGroup.h */,
+				1A92DC531CDD7ECE00DFC775 /* TRMusicGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A92DC1C1CDD7CAE00DFC775 /* QQMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A92DC341CDD7CAE00DFC775 /* Build configuration list for PBXNativeTarget "QQMusic" */;
+			buildPhases = (
+				1A92DC191CDD7CAE00DFC775 /* Sources */,
+				1A92DC1A1CDD7CAE00DFC775 /* Frameworks */,
+				1A92DC1B1CDD7CAE00DFC775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQMusic;
+			productName = QQMusic;
+			productReference = 1A92DC1D1CDD7CAE00DFC775 /* QQMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A92DC151CDD7CAE00DFC775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TRRogen;
+				TargetAttributes = {
+					1A92DC1C1CDD7CAE00DFC775 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1A92DC181CDD7CAE00DFC775 /* Build configuration list for PBXProject "QQMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A92DC141CDD7CAE00DFC775;
+			productRefGroup = 1A92DC1E1CDD7CAE00DFC775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A92DC1C1CDD7CAE00DFC775 /* QQMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A92DC1B1CDD7CAE00DFC775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A92DC301CDD7CAE00DFC775 /* LaunchScreen.storyboard in Resources */,
+				1A92DC2D1CDD7CAE00DFC775 /* Assets.xcassets in Resources */,
+				1A92DC2B1CDD7CAE00DFC775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A92DC191CDD7CAE00DFC775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A92DC251CDD7CAE00DFC775 /* AppDelegate.m in Sources */,
+				1A92DC5B1CDD821C00DFC775 /* MusicTableViewController.m in Sources */,
+				1A92DC551CDD7ECE00DFC775 /* TRMusicGroup.m in Sources */,
+				1A92DC541CDD7ECE00DFC775 /* TRMusic.m in Sources */,
+				1A92DC221CDD7CAE00DFC775 /* main.m in Sources */,
+				1A92DC581CDD80C200DFC775 /* MusicCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A92DC291CDD7CAE00DFC775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A92DC2A1CDD7CAE00DFC775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A92DC2E1CDD7CAE00DFC775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A92DC2F1CDD7CAE00DFC775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A92DC321CDD7CAE00DFC775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A92DC331CDD7CAE00DFC775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A92DC351CDD7CAE00DFC775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QQMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.QQMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A92DC361CDD7CAE00DFC775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QQMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tarena.QQMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A92DC181CDD7CAE00DFC775 /* Build configuration list for PBXProject "QQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A92DC321CDD7CAE00DFC775 /* Debug */,
+				1A92DC331CDD7CAE00DFC775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A92DC341CDD7CAE00DFC775 /* Build configuration list for PBXNativeTarget "QQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A92DC351CDD7CAE00DFC775 /* Debug */,
+				1A92DC361CDD7CAE00DFC775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A92DC151CDD7CAE00DFC775 /* Project object */;
+}
