@@ -24,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *HQConstraintLeft;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *artistConstraintLeft;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *DownloadConstraintLeft;
+@property (nonatomic,strong) NSString *aasdadgfshgahsgjogkdhsjkfjgskjdhbgjksal;
 
 @end
 
